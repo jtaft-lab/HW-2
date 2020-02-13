@@ -1,0 +1,4 @@
+# Problem 5: Create a Python script 02_problem5.py that prompts the user to enter a year. Then it verifies that it is a valid year. Finally it display a message telling the user if it is a leap year or not. Show your results in the terminal for 1900, 1904, 1905, and 2000. Commit your Python script to your GitHub repository. Submit your script, a screenshot of your terminal, and a screenshot of your entire browser window showing your GitHub repository.
+print ('Enter year:')
+my_number = input ()
+if my_number ≤ 2020

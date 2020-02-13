@@ -1,0 +1,9 @@
+#Determining if the value associated with a or b is greater, or if the value is equal
+a=12
+b=6
+if a > b:
+print ('a is greater than b')
+elif a < b
+print ('a is smaller than b')
+else a == b
+print ('a and b are equal')

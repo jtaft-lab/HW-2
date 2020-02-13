@@ -1,0 +1,12 @@
+#Create a Python script 02_problem4.py with one variable year and displays whether year is a leap year. A year is a leap year if it is divisible by 4, but not by 100 unless it is divisible by 400. Commit your Python script to your GitHub repository. Submit your script, a screenshot of your terminal, and a screenshot of your entire browser window showing your GitHub repository.
+year = 2020
+if (year % 4 == 0):
+	if (year %100 ==0):
+		if (year % 400 == 0):
+			print ('Year is a leap year')
+		else:
+			print ('Year is not a leap year')
+	else:
+			print ('Year is a leap year')
+else:
+		print ('Year is not a leap year')
